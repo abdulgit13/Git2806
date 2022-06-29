@@ -9,14 +9,14 @@ import java.util.Set;
 public class Sample {
 	public static void main(String[] args) {
 		
-Map<String, String> m=new Hashtable();
+Map<String,String> m=new Hashtable<String,String>();
 
 m.put("vel", "selenium");
 m.put("ganesh", "python");
 m.put("dinesh", "corejava");
 m.put("subash", "jira");
 m.put("vengat","framework");
-
+m.put("abdul", "apitask");
 
 
 Collection<String> values = m.values();
@@ -32,7 +32,7 @@ for (Entry<String, String> entry : set) {
  
  for (String string : keySet) {
 	 
-	 System.out.println(keySet);
+	 System.out.println(string);
 	
 }
 	
